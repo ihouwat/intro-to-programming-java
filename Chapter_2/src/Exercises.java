@@ -20,9 +20,10 @@ public class Exercises {
         int space = name.indexOf(' ');
         String firstName = name.substring(0, space);
         String lastName = name.substring(space+1);
+
         System.out.println("EXERCISE 3");
         System.out.println("Your first name is " + firstName + ", which has " + firstName.length() + " characters");
         System.out.println("Your last name is " + lastName + ", which has " + lastName.length() + " characters");
-        System.out.println("Your initials are " + firstName.substring(0,1) + lastName.substring(0,1));
+        System.out.println("Your initials are " + firstName.charAt(0) + lastName.charAt(0));
     }
 }
