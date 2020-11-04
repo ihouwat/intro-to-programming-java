@@ -1,4 +1,4 @@
-public class Exercises {
+public class Chapter2Exercises {
     public static void main(String[] args) {
         // Exercise #2
         int firstDie; //first die
