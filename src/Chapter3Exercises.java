@@ -1,7 +1,9 @@
 public class Chapter3Exercises {
     public static void main(String[] args) {
+
         // TRYING CONTROL STRUCTURES
-        int x = 2;
+        int x = 1;
+
         // If statement
 //        if(x == 1){
 //            System.out.println("Variable x is " + x);
@@ -22,9 +24,7 @@ public class Chapter3Exercises {
 
         // Switch statement - new way
         switch (x){
-            case 1, 2 -> {
-                System.out.println("Variable x is " + x);
-            }
+            case 1, 2 -> System.out.println("Variable x is " + x);
             default -> System.out.println("Failure!");
         }
     }
