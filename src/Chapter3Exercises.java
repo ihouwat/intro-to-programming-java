@@ -1,3 +1,5 @@
+// Chapter 3: Control (loops, blocks, branches)
+
 public class Chapter3Exercises {
     public static void main(String[] args) {
 

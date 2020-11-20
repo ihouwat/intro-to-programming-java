@@ -1,3 +1,5 @@
+// Chapter 2: Names and Things
+
 public class Chapter2Exercises {
     public static void main(String[] args) {
         // Exercise #2
