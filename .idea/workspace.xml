@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$AdditionQuestion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$AdministerQuiz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$IntQuestion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$MultiplicationQuestion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$PairOfDice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$SubtractionQuestion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter5Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter6Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter2Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter2Exercises.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter3Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter3Exercises.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter4Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter4Exercises.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter2Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$AdditionQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$AdditionQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$AdministerQuiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$AdministerQuiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$MultiplicationQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$MultiplicationQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$PairOfDice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$PairOfDice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$SubtractionQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises$SubtractionQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter5Exercises.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
       <recent name="C:\Users\houwa\Desktop\Projects\Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter5Exercises">
+  <component name="RunManager" selected="Application.Chapter6Exercises">
     <configuration name="Chapter3Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter3Exercises" />
       <module name="Java" />
@@ -103,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+    <configuration name="Chapter6Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6Exercises" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter6Exercises" />
         <item itemvalue="Application.Chapter5Exercises" />
         <item itemvalue="Application.Chapter4Exercises" />
         <item itemvalue="Application.Chapter4Exercises (1)" />
         <item itemvalue="Application.Chapter3Exercises" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605232526850</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Chapter 5 exercises">
+      <created>1605832624547</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605832624547</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,46 +212,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605828444640" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605832595146">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605915795660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605832595146" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605832595146">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605915795660" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605915795660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605832595146" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605832595146">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605915795660" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605915795660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605832595146" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605832595146">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605915795660" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605915795660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605832595146" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605829644656">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605915795660" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605832735000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605829644656" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605829644655">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605832735000" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605832735000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605829644655" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605829644655">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605832735000" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605832735000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605829644655" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605829644655">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605832735000" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605832735000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605829644655" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605832735000" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1604702311258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1604702311258" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605232528429">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605832625873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605232528429" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605832625873" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605828461018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
