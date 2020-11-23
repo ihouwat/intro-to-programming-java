@@ -20,7 +20,7 @@ public class Chapter6Exercise2MoveShape extends JPanel {
         window.setContentPane(content);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocation(120,70);
-        window.setSize(400,300);
+        window.setSize(600,400);
         window.setVisible(true);
     }
 
