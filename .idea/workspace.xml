@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter6Exercise2MoveShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$Boat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$Bomb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller$Submarine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/SubKiller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubKiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter6SubKillerExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +65,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\houwa\Desktop\Projects\Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubKiller">
-    <configuration name="Chapter4Exercises (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4Exercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chapter4Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4Exercises" />
+  <component name="RunManager" selected="Application.Chapter6Exercise2MoveShape">
+    <configuration name="Chapter6Exercise1SimpleStamper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6Exercise1SimpleStamper" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter5Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter5Exercises" />
+    <configuration name="Chapter6Exercise2MoveShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6Exercise2MoveShape" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter6Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6Exercises" />
+    <configuration name="Chapter6SimpleCalculatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6SimpleCalculatorExample" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter6SubKillerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6SubKillerExample" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter6Exercise2MoveShape" />
+        <item itemvalue="Application.Chapter6Exercise1SimpleStamper" />
+        <item itemvalue="Application.Chapter6SimpleCalculatorExample" />
+        <item itemvalue="Application.Chapter6SubKillerExample" />
         <item itemvalue="Application.SubKiller" />
-        <item itemvalue="Application.Chapter6Exercises" />
-        <item itemvalue="Application.Chapter5Exercises" />
-        <item itemvalue="Application.Chapter4Exercises" />
-        <item itemvalue="Application.Chapter4Exercises (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605915824282</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added SubKiller program from Chapter 6">
+      <created>1606074562620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606074562620</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +221,8 @@
     <MESSAGE value="Chapter 4 exercises" />
     <MESSAGE value="Chapter 5 exercises" />
     <MESSAGE value="Chapter 6 - experimenting with Swing GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6 - experimenting with Swing GUI" />
+    <MESSAGE value="Added SubKiller program from Chapter 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SubKiller program from Chapter 6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605224181315">
@@ -213,22 +233,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605828444640" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606074107996">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606172619222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606074107996" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606074107996">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606172619222" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606172619222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606074107996" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606074107996">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606172619222" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606172619222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606074107996" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606074107996">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606172619222" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606172619222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606074107996" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606172619222" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605832735000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,20 +273,32 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="327" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1605915898243" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605915904806">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606074566108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605915904806" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606074566108" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605828461018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605828461018" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605225999057">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606169821767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605225999057" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606169821767" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter6Exercise1SimpleStamper.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java$Chapter6Exercise1SimpleStamper.ic" NAME="Chapter6Exercise1SimpleStamper Coverage Results" MODIFIED="1606168533438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java$Chapter5Exercises.ic" NAME="Chapter5Exercises Coverage Results" MODIFIED="1605828265589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

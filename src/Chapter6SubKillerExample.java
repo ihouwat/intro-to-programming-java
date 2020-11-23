@@ -11,11 +11,11 @@ import javax.swing.*;
  * The sub moves left and right erratically along the bottom of the panel.
  * This class contains a main() routine to allow it to be run as a program.
  */
-public class SubKiller extends JPanel {
+public class Chapter6SubKillerExample extends JPanel {
     
     public static void main(String[] args) {
         JFrame window = new JFrame("Sub Killer Game");
-        SubKiller content = new SubKiller();
+        Chapter6SubKillerExample content = new Chapter6SubKillerExample();
         window.setContentPane(content);
         window.setSize(600, 480);
         window.setLocation(100,100);
@@ -53,7 +53,7 @@ public class SubKiller extends JPanel {
      * are defined by anonymous inner classes.  The timer will run only
      * when the panel has the input focus.
      */
-    public SubKiller() {
+    public Chapter6SubKillerExample() {
 
         setBackground( new Color(0,200,0) ); 
 
@@ -305,4 +305,4 @@ public class SubKiller extends JPanel {
     } // end nested class Submarine    
 
 
-} // end class SubKiller
+} // end class Chapter6SubKillerExample
