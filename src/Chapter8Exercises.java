@@ -31,11 +31,11 @@ public class Chapter8Exercises {
 
     // Exercise 3
     // Write a class to represent roman numerals in either roman or arabic numerals
-    public class romanNumerals {
+    class romanNumerals {
         private final int num; // The number input
 
-        // Two arrays that represent roman and arabic numerals in descending order. Note that each index
-        // in one array is equal to the value of the the corresponding index in the other array.
+        // Two arrays that represent roman and arabic numerals in descending order. Note that each element
+        // in one array index is equal to the value of the the element of the corresponding index in the other array.
         // So, arabicNumbers[i] = romanNumbers[i]
         private int[] arabicNumbers = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
         private String[] romanNumbers = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
@@ -48,17 +48,17 @@ public class Chapter8Exercises {
 
             int total = 0; // total value of roman numeral
             int i = 0; // counter
-            str = str.toUpperCase(); // convert string to upper case
+            str = str.toUpperCase(); // convert string input to upper case
 
             // While loop traverses the string
             while (i < str.length()) {
                 char letter = str.charAt(i);
-                // Use helper method letterToNumber (char c) to determine value of the current character
+                // Use helper method letterToNumber (char c) to determine number value of the current character
                 int currentNumber = letterToNumber(letter);
                 i++;
 
                 if (i == str.length()) {
-                    // this is the last iteration of the loop, add the value of the final roman numeral to the total
+                    // this is the last letter of the string, add the value to the total
                     total += currentNumber;
                 }
                 else {
@@ -70,9 +70,10 @@ public class Chapter8Exercises {
                     // the smaller value is subtracted from the larger value
                     if (nextNumber > currentNumber) {
                         total += (nextNumber - currentNumber);
-                        i++;
+                        i++; // Skip one index since you considered two letters
                     }
-                    // If the next number is smaller than the current number, simply add the current to the total
+                    // If the value of next number is smaller than the current number,
+                    // simply add the current to the total
                     else {
                         total += currentNumber;
                     }
@@ -86,14 +87,14 @@ public class Chapter8Exercises {
         // Throws a NumberFormatException if the input is less than 1 or over 3999.
         public romanNumerals(int number) {
             if (number < 1) throw new NumberFormatException("Value of Roman numeral must be positive.");
-            if (number > 3999) throw new NumberFormatException("Value of Roman numeral must be less than 3999");
+            if (number > 3999) throw new NumberFormatException("Value of Roman numeral must be less than 3999.");
             num = number;
         }
 
-        // Helper method for the constructor with a parameter of type string
-        // This method takes a roman letter as a input of type char
-        // and returns the corresponding numerical value
-        // Throws an error in case the letter is not a valid roman numeral
+        // Helper method for the constructor with a parameter of type string.
+        // This method accepts a roman letter input of type char
+        // and returns the letter's corresponding numerical value.
+        // Will throws an error in case the letter is not a valid roman numeral
         private int letterToNumber(char c) {
             switch(c) {
                 case 'M': return 1000;
@@ -115,14 +116,14 @@ public class Chapter8Exercises {
         // Returns the roman numeral as a string
         public String toString() {
             String roman = ""; // String that will be returned
-            int N = num; // the global variable initialized in the constructor
+            int N = num; // the global variable initialized in the constructor above
 
             // Traverse the array, pretty smart!
             for (var i = 0; i < arabicNumbers.length; i++){
-                // While the value of the input number is less than the value of the arabic number at the current index
+                // While the value of the input number is larger than the value of the arabic number at the current array index
                 while (N >= arabicNumbers[i]){
                     roman += romanNumbers[i]; // Add another letter to the string
-                    N -= arabicNumbers[i]; // Decrement that value from the input number
+                    N -= arabicNumbers[i]; // Decrement the value from the input number
                 }
             }
             return roman;
