@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter9Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter9Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter9Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606950404890</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Chapter 9 exercises">
+      <created>1607209729749</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607209729749</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +274,8 @@
     <MESSAGE value="Chapter 8 Exercises" />
     <MESSAGE value="Refactor Chapter 8 exercises" />
     <MESSAGE value="Chapter 9: Tower of Hanoi recursion example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9: Tower of Hanoi recursion example" />
+    <MESSAGE value="Chapter 9 exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9 exercises" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java$Chapter6Exercise1SimpleStamper.ic" NAME="Chapter6Exercise1SimpleStamper Coverage Results" MODIFIED="1606168533438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

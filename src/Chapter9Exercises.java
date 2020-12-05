@@ -50,6 +50,7 @@ public class Chapter9Exercises {
         return N * factorial(N-1);
     } // end factorial();
 
+
     // Exercise 1b: Write a recursive function to compute fibonacci(N)
     static int fibonacci(int N) {
         if(N == 0 || N == 1 || N == 2) return 1; // base case
@@ -67,6 +68,7 @@ public class Chapter9Exercises {
             size = 0;
         }
 
+        // Class to create node
         public class ListNode {
             int item; // An item in the list.
             ListNode next; // Pointer to the next node in the list.
@@ -110,9 +112,12 @@ public class Chapter9Exercises {
         } // end printReversedList();
     } // end SinglyLinkedList class
 
+
+    // Exercise 4: print the contents of a Binary Tree using a queue data structure
     class BinaryTree {
         private TreeNode root; // root node
 
+        // class to create node
         public class TreeNode {
             int value; // value of node
             TreeNode right; // right pointer
