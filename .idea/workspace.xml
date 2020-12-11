@@ -23,8 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter10Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter9Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter9Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$BinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$BinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$SinglyLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$SinglyLinkedList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises$SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter9Exercises.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +64,9 @@
       <recent name="C:\Users\houwa\Desktop\Projects\Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter9Exercises">
-    <configuration name="Chapter7Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter7Exercises" />
+  <component name="RunManager" selected="Application.Chapter10Exercises">
+    <configuration name="Chapter10Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10Exercises" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,19 +104,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Chapter7Exercises" />
       <item itemvalue="Application.Chapter8Exercises" />
       <item itemvalue="Application.Chapter9Exercises" />
       <item itemvalue="Application.Chapter9TowerOfHanoiExample" />
       <item itemvalue="Application.Maze" />
+      <item itemvalue="Application.Chapter10Exercises" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter10Exercises" />
         <item itemvalue="Application.Chapter9Exercises" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Chapter9TowerOfHanoiExample" />
         <item itemvalue="Application.Chapter8Exercises" />
-        <item itemvalue="Application.Chapter7Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607209729749</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Chapter 9 refactor exercises">
+      <created>1607209859874</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607209859874</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +287,8 @@
     <MESSAGE value="Refactor Chapter 8 exercises" />
     <MESSAGE value="Chapter 9: Tower of Hanoi recursion example" />
     <MESSAGE value="Chapter 9 exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9 exercises" />
+    <MESSAGE value="Chapter 9 refactor exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 9 refactor exercises" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java$Chapter6Exercise1SimpleStamper.ic" NAME="Chapter6Exercise1SimpleStamper Coverage Results" MODIFIED="1606168533438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
