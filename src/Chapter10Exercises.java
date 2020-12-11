@@ -4,6 +4,7 @@
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+
 import static java.lang.System.out;
 
 public class Chapter10Exercises {
@@ -23,19 +24,50 @@ public class Chapter10Exercises {
         out.println("Exercise 3 - Create a hash map data structure without built-in generic types");
         out.println("Implement the methods: get(key), put(key,value), remove(key), containsKey(key), and size()");
         out.println();
-        out.println("Testing a hashmap with 5 key/value pairs");
         Chapter10Exercises.HashTable hashTable = MainClass.new HashTable();
-        hashTable.put("FirstKey", "FirstVal");
-        hashTable.put("SecondKey", "SecondVal");
-        hashTable.put("ThirdKey", "ThirdVal");
-        hashTable.put("FourthKey", "FourthVal");
-        hashTable.put("FifthKey", "FifthVal");
-        out.println("The hashmap size is : " + hashTable.size());
-        out.println("Testing .containsKey('FirstKey') which returns true: " + hashTable.containsKey("FirstKey"));
-        out.println("Testing .containsKey('SixthKey') which returns false: " + hashTable.containsKey("SixthKey"));
-        out.println("Testing .get('FifthKey') which returns: " + hashTable.get("FifthKey"));
-        out.println("Testing .remove('SecondKey') which removes the node with value: " + hashTable.remove("SecondKey").value);
-        out.println("The updated size of the hashmap is " + hashTable.size());
+        hashTable.put("0", "val0");
+        hashTable.put("1", "val1");
+        hashTable.put("2", "val2");
+        hashTable.put("3", "val3");
+        hashTable.put("4", "val4");
+        hashTable.put("5", "val5");
+        hashTable.put("6", "val6");
+        hashTable.put("7", "val7");
+        hashTable.put("8", "val8");
+        hashTable.put("9", "val9");
+        hashTable.put("11", "val11");
+        hashTable.put("12", "val12");
+        hashTable.put("13", "val13");
+        hashTable.put("14", "val14");
+        hashTable.put("15", "val15");
+        hashTable.put("16", "val16");
+        hashTable.put("17", "val17");
+        hashTable.put("18", "val18");
+        hashTable.put("19", "val19");
+        hashTable.put("200", "val200");
+        out.println("Testing a hashmap with 20 key/value pairs. Items are located at:");
+        hashTable.printTable();
+        out.println();
+        out.println("The number of items in the hashmap is " + hashTable.size());
+        out.println("Testing .containsKey('1') which returns true: " + hashTable.containsKey("1"));
+        out.println("Testing .containsKey('60') which returns false: " + hashTable.containsKey("06"));
+        out.println("Testing .get('5') which returns: " + hashTable.get("5"));
+        out.println();
+        out.println("Testing .remove('2') which removes the node with value: " + hashTable.remove("2").value);
+        out.println("The updated number of items in the hashmap is " + hashTable.size());
+        out.println();
+        out.println("The updated table looks like this: ");
+        hashTable.printTable();
+        out.println();
+        out.println("Testing replacing the value of an existing key, 1 with the updated value, val1Updated");
+        hashTable.put("1", "val1Updated");
+        out.println("The new value of the existing key, 1, is: " + hashTable.get("1"));
+        out.println("Testing replacing the value of an existing key, 200 with the updated value, val200Updated");
+        hashTable.put("200", "val200Updated");
+        out.println("The new value of the existing key, 200, is: " + hashTable.get("200"));
+        out.println();
+        out.println("The updated table looks like this: ");
+        hashTable.printTable();
         out.println();
 
         out.println("Exercise 5 - Trying out the Stream API with a list of students");
@@ -80,18 +112,19 @@ public class Chapter10Exercises {
                 .forEach(s -> out.println(s.firstName + " " + s.lastName + ": " + s.score));
     }
 
+
     /*
         Exercise 1: Rewrite the PhoneDirectory class from Subsection 7.4.2
         so that it uses a TreeMap to store (solution) directory entries, instead of an array.
      */
 
-    /**
+    /*
      * A PhoneDirectory holds a list of names with a phone number for
      * each name. It is possible to find the number associated with
      * a given name, and to specify the phone number for a given name.
      */
     public class PhoneDirectory {
-        /**
+        /*
          * An object of type PhoneEntry holds one name/number pair.
          */
         private class PhoneEntry {
@@ -100,14 +133,14 @@ public class Chapter10Exercises {
         }
         private final Map<String, String> data; // TreeMap that holds the name/number pairs.
         private int dataCount; // The number of pairs stored in the array.
-        /**
+        /*
          * Constructor creates an initially empty directory of type TreeMap.
          */
         public PhoneDirectory() {
             data = new TreeMap<>();
             dataCount = 0;
         }
-        /**
+        /*
          * Looks for a name/number pair with a given name. If found, the method
          * returns a boolean value of true. If no pair contains the
          * given name, then the return value is false. This private method is
@@ -116,7 +149,7 @@ public class Chapter10Exercises {
         private boolean find( String name ) {
             return data.containsKey(name); // Checks if the name is in the map.
         }
-        /**
+        /*
          * Finds the phone number, if any, for a given name.
          * @return The phone number associated with the name; if the name does
          * not occur in the phone directory, then the return value is null.
@@ -128,7 +161,7 @@ public class Chapter10Exercises {
             else
                 return data.get(name);
         }
-        /**
+        /*
          * Associates a given name with a given phone number. If the name
          * already exists in the phone directory, then the new number replaces
          * the old one. Otherwise, a new name/number pair is added. The
@@ -154,6 +187,7 @@ public class Chapter10Exercises {
             }
         }
     } // end class PhoneDirectory
+
 
     /*
         Exercise 3: Write a hashmap implementation from scratch.
@@ -201,26 +235,9 @@ public class Chapter10Exercises {
             if (key == null || value == null)
                 throw new IllegalArgumentException("key and value inputs cannot be null");
 
-            int index = getHash(key); // Get key hashcode, which is the index in the array called table
-            SinglyLinkedList listAtIndex = table[index]; // identify the right list to look at
-            boolean foundInTable = containsKey(key); // search for key in hashmap
-
-            // If the key is not in map, insert it in the correct place
-            if(!foundInTable) {
-                listAtIndex.insertIntoLinkedList(key, value);
-            }
-            // If key is in map, find it and replace its value with the new one
-            else {
-                SinglyLinkedList.ListNode node = listAtIndex.head;
-
-                while(node != null) {
-                    if(node.key.equals(key)) {
-                        node.value = value; // identify found node
-                        return;
-                    }
-                    node = node.next;
-                }
-            }
+            int index = getHash(key); // Get key hashcode, which is the index in the array table
+            SinglyLinkedList list = table[index]; // identify the starting node in the right list
+            list.insertIntoLinkedList(key, value); // insert the key/value pair in the list
         }
 
         // Removes a key,value pair and returns the node containing that pair, or null if nothing is found
@@ -273,8 +290,8 @@ public class Chapter10Exercises {
         // Method that returns the size of the hashmap
         public int size() {
             int sum = 0; // Sum of size of all linked lists in hash table
-            for (SinglyLinkedList singlyLinkedList : table) {
-                sum += singlyLinkedList.size;
+            for (SinglyLinkedList list : table) {
+                sum += list.size;
             }
             return sum;
         }
@@ -284,48 +301,86 @@ public class Chapter10Exercises {
             return Math.abs(key.hashCode()%table.length);
         }
 
+        public void printTable() {
+            int counter = 0;
+            for(SinglyLinkedList t : table) {
+                if(t.size > 0){
+                    out.println("Hash table row " + counter + " key/value pairs");
+                    t.printList();
+                }
+                counter++;
+            }
+        }
+
         // Inner class for singly linked list operations
-        class SinglyLinkedList {
-            private ListNode head;
-            private int size;
 
-            // Constructor to initialize list
-            public SinglyLinkedList() {
-                head = null;
-                size = 0;
-            }
-
-            // Class to create node
-            public class ListNode {
-                String key; // An key in the list.
-                String value; // An associated value in the list
-                ListNode next; // Pointer to the next node in the list.
-            }
-
-            public void insertIntoLinkedList (String k, String v) {
-                // Create the linked list node
-               ListNode newNode;
-                newNode = new ListNode();
-                newNode.key = k;
-                newNode.value = v;
-
-                if (head == null){
-                    head = newNode;
-                }
-                else {
-                    ListNode pointer = head;
-                    while(pointer.next != null) {
-                        pointer = pointer.next;
-                    }
-                    pointer.next = newNode;
-                }
-
-                size++;
-            } // end insertIntoLinkedList();
-
-        } // end SinglyLinkedList class
 
     } // end class HashTable
+
+    class SinglyLinkedList {
+        private ListNode head;
+        private int size;
+
+        // Constructor to initialize list
+        public SinglyLinkedList() {
+            head = null;
+            size = 0;
+        }
+
+        // Class to create node
+        public class ListNode {
+            String key; // An key in the list.
+            String value; // An associated value in the list
+            ListNode next; // Pointer to the next node in the list.
+        }
+
+        // ListNode constructor
+        public void ListNode(String k, String v) {
+            ListNode newNode = new ListNode();
+            newNode.key = k;
+            newNode.value = v;
+        }
+
+
+        public void insertIntoLinkedList (String k, String v) {
+            // Create the linked list node
+            ListNode newNode;
+            newNode = new ListNode();
+            newNode.key = k;
+            newNode.value = v;
+
+            if (head == null){
+                head = newNode;
+            }
+            else {
+                ListNode pointer = head;
+                int counter = 0;
+                while(counter < size) {
+                    if(pointer.key.equals(k)) { // If the key exists in the linked list, replace the associated value with the new v.
+                        pointer.value = v;
+                        return;
+                    }
+                    else if(pointer.next == null){
+                        // The key does not exist in list. Add it to list.
+                        pointer.next = newNode;
+                    }
+                    pointer = pointer.next;
+                    counter++;
+                }
+            }
+            size++; // increment list size
+        } // end insertIntoLinkedList();
+
+        public void printList() {
+            assert head != null : "You cannot print an empty list";
+            SinglyLinkedList.ListNode pointer = head;
+            while(pointer != null){
+                out.println("{ " + pointer.key + ": " + pointer.value + " }");
+                pointer = pointer.next;
+            }
+        } // end printList();
+
+    } // end SinglyLinkedList class
 
 
     /*
@@ -396,6 +451,7 @@ public class Chapter10Exercises {
         }
 
     } // end class TestPredicates
+
 
     /*
         Exercise 5: Short exercise using Stream API
