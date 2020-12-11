@@ -395,7 +395,7 @@ public class Chapter10Exercises {
             return list;
         }
 
-    }
+    } // end class TestPredicates
 
     /*
         Exercise 5: Short exercise using Stream API
@@ -415,7 +415,7 @@ public class Chapter10Exercises {
             }
 
         }
-        // Create an array of new scores
+        // Create an array of students to play with
         private final ScoreInfo[] scoreData = new ScoreInfo[] {
                 new ScoreInfo("Smith","John",70),
                 new ScoreInfo("Doe","Mary",85),
@@ -433,7 +433,7 @@ public class Chapter10Exercises {
                 new ScoreInfo("Khan","Omar",93),
                 new ScoreInfo("Smith","Ann",95)
         };
-    }
+    } // end class StreamTest
 
 
 } // end class Chapter10Exercises
