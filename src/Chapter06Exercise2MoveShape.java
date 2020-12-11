@@ -8,7 +8,7 @@ import javax.swing.*;
  * can drag with the mouse.   The user can drag the squares off
  * the panel and drop them.  There is no way of getting them back.
  */
-public class Chapter6Exercise2MoveShape extends JPanel {
+public class Chapter06Exercise2MoveShape extends JPanel {
 
 
     /**
@@ -16,7 +16,7 @@ public class Chapter6Exercise2MoveShape extends JPanel {
      */
     public static void main(String[] args) {
         JFrame window = new JFrame("Drag Either Square");
-        Chapter6Exercise2MoveShape content = new Chapter6Exercise2MoveShape();
+        Chapter06Exercise2MoveShape content = new Chapter06Exercise2MoveShape();
         window.setContentPane(content);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocation(120,70);
@@ -35,7 +35,7 @@ public class Chapter6Exercise2MoveShape extends JPanel {
      *  The constructor places the two squares in their initial positions and
      *  sets up listening for mouse events and mouse motion events.
      */
-    public Chapter6Exercise2MoveShape() {
+    public Chapter06Exercise2MoveShape() {
 
         x1 = 10;  // Set up initial positions of the squares.
         y1 = 10;

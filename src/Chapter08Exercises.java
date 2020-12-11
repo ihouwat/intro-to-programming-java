@@ -3,12 +3,12 @@
 
 import static java.lang.System.out;
 
-public class Chapter8Exercises {
+public class Chapter08Exercises {
     public static void main(String[] args) {
-        Chapter8Exercises OuterClass = new Chapter8Exercises();
-        Chapter8Exercises.romanNumerals romanNumString = OuterClass.new romanNumerals("MCMXCV");
-        Chapter8Exercises.romanNumerals romanNumInt = OuterClass.new romanNumerals(3);
-        Chapter8Exercises.romanNumerals romanNumError = OuterClass.new romanNumerals(3999);
+        Chapter08Exercises OuterClass = new Chapter08Exercises();
+        Chapter08Exercises.romanNumerals romanNumString = OuterClass.new romanNumerals("MCMXCV");
+        Chapter08Exercises.romanNumerals romanNumInt = OuterClass.new romanNumerals(3);
+        Chapter08Exercises.romanNumerals romanNumError = OuterClass.new romanNumerals(3999);
 
         out.println("Exercise 3");
         out.println("Method that accepts a roman numeral in either letter or integer format");

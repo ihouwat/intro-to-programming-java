@@ -13,11 +13,11 @@ import javax.swing.*;
  * For example, they might disappear if the panel is resized.
  * This class has a main() routine to allow it to be run as an application.
  */
-public class Chapter6Exercise1SimpleStamper extends JPanel implements MouseListener, MouseMotionListener {
+public class Chapter06Exercise1SimpleStamper extends JPanel implements MouseListener, MouseMotionListener {
 
     public static void main(String[] args) {
         JFrame window = new JFrame("Simple Stamper");
-        Chapter6Exercise1SimpleStamper content = new Chapter6Exercise1SimpleStamper();
+        Chapter06Exercise1SimpleStamper content = new Chapter06Exercise1SimpleStamper();
         window.setContentPane(content);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocation(120,70);
@@ -36,7 +36,7 @@ public class Chapter6Exercise1SimpleStamper extends JPanel implements MouseListe
      * This constructor simply sets the background color of the panel to be white
      * and sets the panel to listen for mouse events on itself.
      */
-    public Chapter6Exercise1SimpleStamper() {
+    public Chapter06Exercise1SimpleStamper() {
         setBackground(Color.WHITE);
         addMouseListener(this);
         addMouseMotionListener(this);

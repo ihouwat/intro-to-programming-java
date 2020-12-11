@@ -2,7 +2,7 @@
 
 import static java.lang.System.out;
 
-public class Chapter4Exercises {
+public class Chapter04Exercises {
     public static void main(String[] args) {
         out.println("EXERCISE 1 - Capitalize a sentence");
         printCapitalized("He said, \"That is not a good idea\"");

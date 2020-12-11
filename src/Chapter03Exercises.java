@@ -1,6 +1,6 @@
 // Chapter 3: Control (loops, blocks, branches)
 
-public class Chapter3Exercises {
+public class Chapter03Exercises {
     public static void main(String[] args) {
 
         // TRYING CONTROL STRUCTURES

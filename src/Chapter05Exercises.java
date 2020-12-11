@@ -3,7 +3,7 @@
 import static java.lang.System.out;
 import java.util.Arrays;
 
-public class Chapter5Exercises {
+public class Chapter05Exercises {
     public static void main(String[] args) {
         PairOfDice dice = new PairOfDice();
         out.println("EXERCISE 2: Pair of Dice class with getter, setter, and a method to show result of a die roll");

@@ -5,7 +5,7 @@ import static java.lang.System.out;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Chapter7Exercises {
+public class Chapter07Exercises {
     public static void main(String[] args) {
         out.println("EXERCISE 1");
         out.println("Create an ArrayList, populate it with a specified number of random integers,");

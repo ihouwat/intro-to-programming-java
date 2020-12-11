@@ -4,10 +4,10 @@
 import java.util.ArrayList;
 import static java.lang.System.out;
 
-public class Chapter9Exercises {
+public class Chapter09Exercises {
 
     public static void main(String[] args) {
-        Chapter9Exercises MainClass = new Chapter9Exercises();
+        Chapter09Exercises MainClass = new Chapter09Exercises();
 
         out.println("EXERCISE 1a - calculate factorial recursively");
         out.println("Factorial of 4 is: " + factorial(4));
@@ -19,7 +19,7 @@ public class Chapter9Exercises {
 
         out.println("EXERCISE 3 - print a reversed linked list");
         out.println();
-        Chapter9Exercises.SinglyLinkedList list = MainClass.new SinglyLinkedList();
+        Chapter09Exercises.SinglyLinkedList list = MainClass.new SinglyLinkedList();
         list.insertIntoLinkedList(1);
         list.insertIntoLinkedList(2);
         list.insertIntoLinkedList(3);
@@ -32,7 +32,7 @@ public class Chapter9Exercises {
         out.println();
 
         out.println("EXERCISE 4 - print the contents of a Binary Tree using a queue data structure");
-        Chapter9Exercises.BinaryTree tree = MainClass.new BinaryTree();
+        Chapter09Exercises.BinaryTree tree = MainClass.new BinaryTree();
         tree.insertIntoTree(3);
         tree.insertIntoTree(4);
         tree.insertIntoTree(15);

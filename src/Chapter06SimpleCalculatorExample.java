@@ -12,7 +12,7 @@ import javax.swing.*;
  * This class also contains a main() routine, so that
  * it can be run as a stand-alone application.
  */
-public class Chapter6SimpleCalculatorExample extends JPanel implements ActionListener {
+public class Chapter06SimpleCalculatorExample extends JPanel implements ActionListener {
 
     /**
      * This main() routine makes it possible to run the SimpleCalc class
@@ -20,7 +20,7 @@ public class Chapter6SimpleCalculatorExample extends JPanel implements ActionLis
      */
     public static void main(String[] args) {
         JFrame window = new JFrame("Simple Calculator");
-        Chapter6SimpleCalculatorExample content = new Chapter6SimpleCalculatorExample();
+        Chapter06SimpleCalculatorExample content = new Chapter06SimpleCalculatorExample();
         window.setContentPane(content);
         window.pack();  // Sizes window to preferred size of contents.
         window.setLocation(100,100);
@@ -37,7 +37,7 @@ public class Chapter6SimpleCalculatorExample extends JPanel implements ActionLis
                             //    error message if appropriate.
 
 
-    public Chapter6SimpleCalculatorExample() {
+    public Chapter06SimpleCalculatorExample() {
 
         /* Assign a background color to the panel and its
              content panel.  This color will show through in the gaps
