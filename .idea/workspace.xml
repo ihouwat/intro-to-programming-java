@@ -23,18 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter11Exercise2LineCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter11Exercise3NetworkServer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable$SinglyLinkedList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable$SinglyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory$PhoneEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory$PhoneEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest$ScoreInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest$ScoreInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$TestPredicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$TestPredicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise3Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise3NetworkServer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter11Exercise3Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter11Exercise4NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter11Exercise3NetworkServer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter11Exercise3NetworkServer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter11Exercise3NetworkServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter11Exercise3Client">
+  <component name="RunManager" selected="Application.Chapter11Exercise4NetworkClient">
     <configuration name="CLChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CLChatClient" />
       <module name="Java" />
@@ -115,18 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter11Exercise3Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise3Client" />
+    <configuration name="Chapter11Exercise3NetworkServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise3NetworkServer" />
       <module name="Java" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;&quot; 1728" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\houwa\Desktop\Projects\Java\src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter11Exercise3NetworkServer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise3NetworkServer1" />
+    <configuration name="Chapter11Exercise4NetworkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise4NetworkClient" />
       <module name="Java" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\houwa\Desktop\Projects\Java\src" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,12 +133,12 @@
       <item itemvalue="Application.Chapter11Exercise1DirectoryList" />
       <item itemvalue="Application.Chapter11Exercise3NetworkServer1" />
       <item itemvalue="Application.CLChatClient" />
-      <item itemvalue="Application.Chapter11Exercise3Client" />
       <item itemvalue="Application.CLChatServer" />
+      <item itemvalue="Application.Chapter11Exercise4NetworkClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter11Exercise3Client" />
+        <item itemvalue="Application.Chapter11Exercise4NetworkClient" />
         <item itemvalue="Application.Chapter11Exercise3NetworkServer1" />
         <item itemvalue="Application.CLChatClient" />
         <item itemvalue="Application.CLChatServer" />
@@ -313,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607730245098</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Chapter 11 Exercises 1, 2, started 3">
+      <created>1608085954773</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608085954773</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +353,8 @@
     <MESSAGE value="Changed file names" />
     <MESSAGE value="Chapter 10 comments" />
     <MESSAGE value="Refactored Chapter 10 exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored Chapter 10 exercises" />
+    <MESSAGE value="Chapter 11 Exercises 1, 2, started 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 11 Exercises 1, 2, started 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,6 +362,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

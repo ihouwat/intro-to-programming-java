@@ -9,6 +9,9 @@ The [files](https://github.com/ihouwat/intro-to-programming-java/tree/master/src
 - [Chapter 8](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter08Exercises.java): Correctness, robustness, efficiency, exception handling (try..catch, annotations, assertions, etc.)
 - [Chapter 9](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter09Exercises.java): Linked data structures and recursion (linked lists, binary trees)
 - [Chapter 10](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter10Exercises.java): Generic programming and collection classes (includes Stream API)
+- Chapter 11: Input/Output streams, files, and networking
+    - [File and Scanner exercise]()
+    - [BufferedReader to count lines in file]()
+    - [Simple Server]() and [Client]()
 ### Coming soon
-- [Chapter 11](): Input/Output streams, files, and networking
 - [Chapter 12](): Threads and multiprocessing

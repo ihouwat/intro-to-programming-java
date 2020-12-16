@@ -2,31 +2,12 @@ import java.net.*;
 import java.util.Scanner;
 import java.io.*;
 
-/**
- * This program is one end of a simple command-line interface chat program.
- * It acts as a client which makes a connection to a CLChatServer program.
- * The computer to connect to can be given as a command line argument.  If
- * it is not, then the program prompts the user for computer name or IP and
- * for port number.  If a computer is specified on the command line, a port
- * number can also be specified as the second command-line argument; if no
- * second argument is specified, the default port number is used.
- * Once a connection has been established, the two ends of the connection
- * each send a HANDSHAKE string to the other, so that both ends can verify
- * that the program on the other end is of the right type.  Then the connected
- * programs alternate sending messages to each other.  The client always sends
- * the first message.  The user on either end can close the connection by
- * entering the string "quit" when prompted for a message.  Note that the first
- * character of any string sent over the connection must be 0 or 1; this
- * character is interpreted as a command.
- */
-class Chapter11Exercise3Client {
+class Chapter11Exercise4NetworkClient {
 
-    /**
-     * Port number on server, if none is specified on the command line.
-     */
+    // Port number on server, if none is specified on the command line.
     static final String DEFAULT_PORT = "1728";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         String computer;  // The computer where the server is running,
         // as specified on the command line.  It can
@@ -72,15 +53,14 @@ class Chapter11Exercise3Client {
             return;
         }
 
-        
-        /* Open a connection to the server.  Create streams for 
-         communication and exchange the handshake. */
+
+        // Open a connection to the server.  Create streams for communication.
 
         try {
             System.out.println("Connecting to " + computer + " on port " + port);
             connection = new Socket(computer, port);
-            incoming = new BufferedReader(
-                    new InputStreamReader(connection.getInputStream()));
+            incoming = incoming = new BufferedReader(
+                    new InputStreamReader(connection.getInputStream()) );
             outgoing = new PrintWriter(connection.getOutputStream());
             System.out.println("Connected.  Enter your first message.");
         } catch (Exception e) {
@@ -89,39 +69,41 @@ class Chapter11Exercise3Client {
             return;
         }
 
-        /* Exchange messages with the other end of the connection until one side or 
-           the other closes the connection.  This client program sends the first message.
-           After that,  messages alternate strictly back and forth. */
+        /* Exchange messages with the other end of the connection.
+        * You can send two types of messages: INDEX or GET <filename>   */
 
         try {
             userInput = new Scanner(System.in);
-            System.out.println("NOTE: Enter 'quit' to end the program.\n");
-            while (true) {
+
                 System.out.print("SEND:      ");
-                messageOut = userInput.nextLine();
-                if (messageOut.equalsIgnoreCase("quit")) {
-                    // User wants to quit.  Inform the other side
-                    // of the connection, then close the connection.
-                    connection.close();
-                    System.out.println("Connection closed.");
-                    break;
-                }
-                outgoing.println(messageOut);
+                messageOut = userInput.nextLine(); // captures your command
+                outgoing.println(messageOut); // send command to server
                 outgoing.flush();
-                if (outgoing.checkError()) {
-                    throw new IOException("Error occurred while transmitting message.");
-                }
+
                 System.out.println("WAITING...");
-                messageIn = incoming.readLine();
+                messageIn = incoming.readLine(); // capture first line of server response
                 System.out.println("RECEIVED:  " + messageIn);
+
+                // Loop that prints out all lines from server response
+                while (true) {
+                    String in = incoming.readLine();
+                    if(in == null) break;
+                    System.out.println(in);
+                }
+
+            if (outgoing.checkError()) {
+                throw new IOException("Error occurred while transmitting message.");
             }
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             System.out.println("Sorry, an error has occurred.  Connection lost.");
             System.out.println(e.toString());
             System.exit(1);
         }
-
+        finally {
+            connection.close(); // Close the connection
+        }
     }  // end main()
 
 
-} //end class Chapter11Exercise3Client
+} //end class Chapter11Exercise4NetworkClient
