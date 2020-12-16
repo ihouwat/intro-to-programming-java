@@ -10,8 +10,8 @@ The [files](https://github.com/ihouwat/intro-to-programming-java/tree/master/src
 - [Chapter 9](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter09Exercises.java): Linked data structures and recursion (linked lists, binary trees)
 - [Chapter 10](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter10Exercises.java): Generic programming and collection classes (includes Stream API)
 - Chapter 11: Input/Output streams, files, and networking
-    - [File and Scanner exercise]()
-    - [BufferedReader to count lines in file]()
-    - [Simple Server]() and [Client]()
+    - [File and Scanner exercise](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise1DirectoryList.java)
+    - [BufferedReader to count lines in file](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise2LineCount.java)
+    - [Simple Server](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise3NetworkServer.java) and [Client](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise4NetworkClient.java)
 ### Coming soon
 - [Chapter 12](): Threads and multiprocessing
