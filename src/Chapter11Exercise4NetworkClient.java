@@ -1,3 +1,8 @@
+/*
+    Chapter 11: I/O streams, readers, writers
+    This is a client that responds to the server from class Chapter11Exercise3NetworkServer
+*/
+
 import java.net.*;
 import java.util.Scanner;
 import java.io.*;
