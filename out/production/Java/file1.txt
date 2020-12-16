@@ -1,0 +1,4 @@
+List is a raw type. However, List<?> is a unbounded wildcard parameterized type. 
+Because List is a parameterized interface, you should always specify its type argument. 
+In this example, the List formal argument is specified with a unbounded wildcard (?) as its formal type parameter, 
+which means that the countElements method can accept any instantiation of the List interface.

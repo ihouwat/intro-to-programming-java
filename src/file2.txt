@@ -1,0 +1,3 @@
+arn about missing serialVersionUID definitions on serializable classes. For example:
+public class PersistentTime implements Serializable
+{

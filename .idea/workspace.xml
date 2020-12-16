@@ -23,13 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter11Exercise2LineCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11Exercise3NetworkServer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter10Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable$SinglyLinkedList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable$SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$HashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory$PhoneEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory$PhoneEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$PhoneDirectory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest$ScoreInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest$ScoreInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$StreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$TestPredicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises$TestPredicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter10Exercises.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,68 +70,83 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\houwa\Desktop\Projects\Java\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter10Exercises">
-    <configuration name="Chapter08Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter08Exercises" />
+  <component name="RunManager" selected="Application.Chapter11Exercise3Client">
+    <configuration name="CLChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CLChatClient" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter09Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Chapter09Exercises" />
-      <module name="Java" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chapter09TowerOfHanoiExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter09TowerOfHanoiExample" />
+    <configuration name="CLChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CLChatServer" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter10Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10Exercises" />
+    <configuration name="Chapter11Exercise1DirectoryList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise1DirectoryList" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Maze" />
+    <configuration name="Chapter11Exercise2LineCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise2LineCount" />
       <module name="Java" />
+      <option name="PROGRAM_PARAMETERS" value="file1.txt file2.txt file3.txt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter11Exercise3Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise3Client" />
+      <module name="Java" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;&quot; 1728" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter11Exercise3NetworkServer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise3NetworkServer1" />
+      <module name="Java" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\houwa\Desktop\Projects\Java\src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Maze" />
-      <item itemvalue="Application.Chapter10Exercises" />
-      <item itemvalue="Application.Chapter08Exercises" />
-      <item itemvalue="Application.Chapter09Exercises" />
-      <item itemvalue="Application.Chapter09TowerOfHanoiExample" />
+      <item itemvalue="Application.Chapter11Exercise2LineCount" />
+      <item itemvalue="Application.Chapter11Exercise1DirectoryList" />
+      <item itemvalue="Application.Chapter11Exercise3NetworkServer1" />
+      <item itemvalue="Application.CLChatClient" />
+      <item itemvalue="Application.Chapter11Exercise3Client" />
+      <item itemvalue="Application.CLChatServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter10Exercises" />
-        <item itemvalue="Application.Chapter09Exercises" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.Chapter09TowerOfHanoiExample" />
-        <item itemvalue="Application.Chapter08Exercises" />
+        <item itemvalue="Application.Chapter11Exercise3Client" />
+        <item itemvalue="Application.Chapter11Exercise3NetworkServer1" />
+        <item itemvalue="Application.CLChatClient" />
+        <item itemvalue="Application.CLChatServer" />
+        <item itemvalue="Application.Chapter11Exercise1DirectoryList" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607647460110</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Refactored Chapter 10 exercises">
+      <created>1607730245098</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607730245098</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,9 +349,18 @@
     <MESSAGE value="Chapter 10 exercises" />
     <MESSAGE value="Changed file names" />
     <MESSAGE value="Chapter 10 comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 10 comments" />
+    <MESSAGE value="Refactored Chapter 10 exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Chapter 10 exercises" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="hashTable.table[4]" />
@@ -317,8 +368,11 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java$Chapter11Exercise3NetworkServer1.ic" NAME="Chapter11Exercise3NetworkServer1 Coverage Results" MODIFIED="1608074705661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java$Chapter6Exercise1SimpleStamper.ic" NAME="Chapter6Exercise1SimpleStamper Coverage Results" MODIFIED="1606168533438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Java$Chapter10Exercises.ic" NAME="Chapter10Exercises Coverage Results" MODIFIED="1607726991089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java$Chapter09Exercises.ic" NAME="Chapter09Exercises Coverage Results" MODIFIED="1607730437881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java$Chapter11Exercise3Client.ic" NAME="Chapter11Exercise3Client Coverage Results" MODIFIED="1608080387659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java$Chapter10Exercises.ic" NAME="Chapter10Exercises Coverage Results" MODIFIED="1607730428055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java$Chapter5Exercises.ic" NAME="Chapter5Exercises Coverage Results" MODIFIED="1605828265589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
