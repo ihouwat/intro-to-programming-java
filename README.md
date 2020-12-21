@@ -14,7 +14,7 @@ The [files](https://github.com/ihouwat/intro-to-programming-java/tree/master/src
     - [BufferedReader to count lines in file](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise2LineCount.java)
     - [Simple Server](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise3NetworkServer.java) and [Client](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise4NetworkClient.java)
 - Chapter 12(): Threads and multiprocessing
-  - [Testing for errors in non-synchronized multithreaded program]()
-  - [Synchronized method]()
-  - [Thread pool and blocking queue]()
-  - [ExecutorService]()
+  - [Testing for errors in non-synchronized multithreaded program](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter12Exercise1synchronization.java)
+  - [Synchronized method](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter12Exercise2CountDivisors.java)
+  - [Thread pool and blocking queue](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter12Exercise3CountDivisorsThreadPool.java)
+  - [ExecutorService](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter12Exercise4CountDivisorsExecutorService.java)

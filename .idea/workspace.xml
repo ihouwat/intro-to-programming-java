@@ -23,13 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter12Exercise1synchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter12Exercise3CountDivisorsThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter12Exercise4CountDivisorsExecutorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise3NetworkServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise3NetworkServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise4NetworkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise4NetworkClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608160236121</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Chapter 12 exercises">
+      <created>1608514390007</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1608514390007</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +352,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed folder structure" />
     <MESSAGE value="added chapter 3 work" />
     <MESSAGE value="added chapter 3" />
     <MESSAGE value="refactored chapter 3" />
@@ -375,7 +376,8 @@
     <MESSAGE value="Chapter 11 Exercises" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Comments to Chapter 11 Exercise 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments to Chapter 11 Exercise 4" />
+    <MESSAGE value="Chapter 12 exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 12 exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
