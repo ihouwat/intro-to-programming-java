@@ -13,5 +13,8 @@ The [files](https://github.com/ihouwat/intro-to-programming-java/tree/master/src
     - [File and Scanner exercise](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise1DirectoryList.java)
     - [BufferedReader to count lines in file](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise2LineCount.java)
     - [Simple Server](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise3NetworkServer.java) and [Client](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter11Exercise4NetworkClient.java)
-### Coming soon
-- [Chapter 12](): Threads and multiprocessing
+- Chapter 12(): Threads and multiprocessing
+  - [Testing for errors in non-synchronized multithreaded program]()
+  - [Synchronized method]()
+  - [Thread pool and blocking queue]()
+  - [ExecutorService]()

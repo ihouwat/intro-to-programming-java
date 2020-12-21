@@ -23,7 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b715bfe4-27e2-4b78-817c-41b55086f915" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chapter11Exercise4NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter11Exercise4NetworkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter12Exercise1synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter12Exercise3CountDivisorsThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter12Exercise4CountDivisorsExecutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise3NetworkServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise3NetworkServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise4NetworkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Chapter11Exercise4NetworkClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -73,23 +80,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter11Exercise4NetworkClient">
-    <configuration name="CLChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CLChatClient" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CLChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CLChatServer" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chapter11Exercise1DirectoryList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise1DirectoryList" />
+  <component name="RunManager" selected="Application.Chapter12Exercise4CountDivisorsExecutorService">
+    <configuration name="Chapter03Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter03Exercises" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,39 +97,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter11Exercise3NetworkServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise3NetworkServer" />
+    <configuration name="Chapter12Exercise1synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12Exercise1synchronization" />
       <module name="Java" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\houwa\Desktop\Projects\Java\src" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter11Exercise4NetworkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11Exercise4NetworkClient" />
+    <configuration name="Chapter12Exercise2CountDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12Exercise2CountDivisors" />
       <module name="Java" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter12Exercise3CountDivisorsThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12Exercise3CountDivisorsThreadPool" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter12Exercise4CountDivisorsExecutorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12Exercise4CountDivisorsExecutorService" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Chapter11Exercise2LineCount" />
-      <item itemvalue="Application.Chapter11Exercise1DirectoryList" />
-      <item itemvalue="Application.Chapter11Exercise3NetworkServer1" />
-      <item itemvalue="Application.CLChatClient" />
-      <item itemvalue="Application.CLChatServer" />
-      <item itemvalue="Application.Chapter11Exercise4NetworkClient" />
+      <item itemvalue="Application.Chapter12Exercise1synchronization" />
+      <item itemvalue="Application.Chapter12Exercise2CountDivisors" />
+      <item itemvalue="Application.Chapter03Exercises" />
+      <item itemvalue="Application.Chapter12Exercise3CountDivisorsThreadPool" />
+      <item itemvalue="Application.Chapter12Exercise4CountDivisorsExecutorService" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter11Exercise4NetworkClient" />
-        <item itemvalue="Application.Chapter11Exercise3NetworkServer1" />
-        <item itemvalue="Application.CLChatClient" />
-        <item itemvalue="Application.CLChatServer" />
-        <item itemvalue="Application.Chapter11Exercise1DirectoryList" />
+        <item itemvalue="Application.Chapter12Exercise4CountDivisorsExecutorService" />
+        <item itemvalue="Application.Chapter12Exercise3CountDivisorsThreadPool" />
+        <item itemvalue="Application.Chapter12Exercise2CountDivisors" />
+        <item itemvalue="Application.Chapter03Exercises" />
+        <item itemvalue="Application.Chapter12Exercise1synchronization" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608160108547</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Comments to Chapter 11 Exercise 4">
+      <created>1608160236121</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608160236121</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +374,8 @@
     <MESSAGE value="Chapter 11 Exercises 1, 2, started 3" />
     <MESSAGE value="Chapter 11 Exercises" />
     <MESSAGE value="Update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
+    <MESSAGE value="Comments to Chapter 11 Exercise 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments to Chapter 11 Exercise 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
