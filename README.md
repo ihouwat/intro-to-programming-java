@@ -1,5 +1,5 @@
 # Practicing Java
-The [files](https://github.com/ihouwat/intro-to-programming-java/tree/master/src) in this repository are exercises or examples from [David J. Eck's](http://math.hws.edu/javanotes/) book: [Introduction to Programming Using Java, Eighth Edition](http://math.hws.edu/javanotes/).
+The [files](https://github.com/ihouwat/intro-to-programming-java/tree/master/src) in this repository are exercises or examples from [David J. Eck's](http://math.hws.edu/eck/) book: [Introduction to Programming Using Java, Eighth Edition](http://math.hws.edu/javanotes/).
 ## Notable Files
 - [Chapter 2](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter02Exercises.java): Names and things - ie basic types and declaring variables
 - [Chapter 3](https://github.com/ihouwat/intro-to-programming-java/blob/master/src/Chapter03Exercises.java): Control (loops, blocks, branches)
